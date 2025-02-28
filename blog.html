@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>myblog</title>
+        <style>
+            body{
+                background-color: #EDE8F5;
+            }
+            .side h2{
+                font-size:50px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            h1{
+                text-align: center;
+                font-size: 100px;
+                margin-top: 0px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                border: 10px solid rgb(4, 85, 91);
+                border-radius: 50px;
+                background-color: rgb(64, 62, 55);
+                color: white;
+            }
+            nav{
+                text-align: center;
+                background-color:#40e0d0;
+                color: white;
+                height: 75px;
+                font-size: 24px;
+                padding-top: 10px;
+                border: 1px solid 	#008080;
+                border-radius: 20px;
+            }
+            .navbar a{
+                list-style-type: none;
+                color: white;
+                background-color: 	#008080;
+                text-decoration: none; 
+                padding: 10px;
+                margin: 10px;
+                border: 2px solid white;
+                border-radius: 10px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            .navbar a:hover{
+                background-color:silver;
+            }
+            .recentpost{
+                padding-left: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 22px;
+                margin-top: 20px;
+                border-radius: 5px;
+                border-style: double;
+                border: 2px solid rgb(197, 38, 38);
+            }
+            .sbs{
+                display: flex;
+                flex-direction: column;
+                float: left;
+                width: 40%;
+                border: 2px solid rgb(6, 6, 6);
+                border-radius: 20px;
+                margin: 10px;
+                color: black;
+                height: auto;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: #dbd8e3;
+                
+            }
+            
+            h3{
+                text-align: center;
+            }
+            p{
+                text-align: justify;
+                padding:7px;
+            }
+            .main{
+                margin-left: 50px;
+                margin-right: 40px;
+                display: flex;
+                text-align: center;
+                flex-wrap: wrap;
+            }
+            #spacebetn{
+                margin-right: 40px;
+            }
+            .side{
+                
+                width:10%;
+                border-left: 2px solid grey;
+                margin-top:50px;
+                margin-left:10px;
+                height: 1200px;
+                width:250px;
+                position: absolute;
+                right: 1px;
+        
+            }
+            .side a{
+                text-decoration:none;
+                display: block;
+                
+                padding: 20px;
+                margin: 50px;
+                margin-top: 1px;
+                border-radius: 30px;
+                height: 20px;
+                color: black;
+
+            }
+               
+            .side a:hover{
+                background-color: azure;
+            }
+            hr{
+                margin-left:40px;
+                margin-right:40px;
+            }
+            label{
+                cursor: pointer;
+                
+                background-color: greenyellow;
+                text-align: right;
+                margin-right: 15px;
+                padding-bottom: 2px;
+                margin-left:475px ;
+               
+               
+            }
+            .content {
+                display: none;
+            }
+        #check1:checked~.content{
+            display: block;
+        }
+            #check1:checked ~ .content1,
+            #check2:checked ~ .content2,
+            #check3:checked ~ .content3,
+            #check4:checked ~ .content4,
+            #check5:checked ~ .content5 {
+                display: block;
+         }
+
+         
+            #check1:checked ~ label[for="check1"], 
+            #check2:checked ~ label[for="check2"],
+            #check3:checked ~ label[for="check3"],
+            #check4:checked ~ label[for="check4"],
+            #check5:checked ~ label[for="check5"] {
+                display: none;
+            }
+           
+            
+            
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>MY BLOG</h1>
+        </div>
+
+        <div>
+            <nav class="navbar">
+                <ul>
+                    <l1><a href="">Home</a></l1>
+                    <l1><a href="">About</a></l1>
+                    <l1><a href="">Travel</a></l1>
+                    <l1><a href="">Contact</a></l1>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="recentpost">
+            <h2>Recent Posts</h2>
+        </div>
+
+
+<div class="main">
+
+
+    <div class="sbs" id="spacebetn">
+
+            <input type="checkbox" id="check1">
+            <h3>Join me in the Arctic</h3>
+            <img src="https://youngadventuress.com/wp-content/uploads/2024/06/F_10-10-2023-18-11-24-copy-1024x682.jpg" height="330px">
+            <p>’ve become so obsessed that I am now an expedition guide, spending roughly half the year at sea in Antarctica and the Arctic. And I’m not slowing down anytime soon. I’ve already started a 
+                three-month season with Adventure Canada in the Arctic for this summer in Canada and Greenland.</p>
+            
+                <div class="content content1">
+                    <p>These polar places are almost inaccessible. The easiest and most efficient way to visit 
+                        is by expedition ship. Most of the year, sea ice locks the Arctic away. Only for a few 
+                        months in the summer does it melt enough to allow access. Most people get around by 
+                        small planes, boats, or snowmobiles (in winter). Personally, I find this isolation
+                         fascinating.Visiting the Arctic and writing about it isn’t enough for me. Deep down, 
+                         I yearned to be part of a team again, a community. Adventure Canada feels like family. 
+                         Owned and operated by three siblings (started by their dad, uncle, and friend), 
+                         as soon as you step on board, you feel a connection like no other. The same guides 
+                         always come back year after year – it feels like going to summer camp and reuniting 
+                         with all of your friends. And it’s the same with the passengers.
+                    </p>
+                     <label for="check1">Read less</label>
+                </div>
+                <label for="check1">Read more</label>
+        </div>
+
+
+        <div class="sbs">
+            <input type="checkbox" id="check2">
+            <h3>Discover Europe’s Best River Cruise Adventures</h3>
+            <img src="https://wanderingearl.com/wp-content/uploads/2024/09/RIver-cruise-ship-700x441.jpg" height="330px">
+            <p>Embarking on a river cruise through Europe offers an unparalleled way to explore the continent's 
+                rich history, culture, and breathtaking landscapes. As travelers glide along tranquil waterways,
+                 they're treated to ever-changing vistas of picturesque towns, rolling vineyards, and iconic 
+                 landmarks. This mode of </p>
+                 
+                 <div class="content content2">
+                    <p>travel has a profound influence on how visitors experience Europe, allowing them to unpack once 
+                        and wake up in a new destination each day. River cruises provide an intimate look at Europe’s 
+                        heartland, taking passengers to places often inaccessible by larger ships. From the romantic
+                         Rhine with its fairy-tale castles to the majestic Danube flowing through imperial cities, 
+                         these journeys offer a unique blend of luxury and adventure. Travellers can look forward to 
+                         exploring UNESCO World Heritage Sites, sampling regional cuisines, and immersing themselves 
+                         in local traditions, all while enjoying the comfort and convenience of their floating hotel
+                         .</p>
+                         <label for="check2">Read less</label>
+                 </div>
+                 <label for="check2">Read more</label>
+        </div>
+
+        <div class="sbs" id="spacebetn">
+            <input type="checkbox" id="check3">
+            <h3>Vegas for the Thrill-Seeker: High-Flying Adventures</h3>
+            <img src="https://wanderingearl.com/wp-content/uploads/2024/09/las-vegas-sign-las-vegas-nevada-usa-2023-11-27-04-52-35-utc-700x441.jpg" height="330px">
+            <p> Sin City has a lot more to offer—if adventure's what you're after. Because when it comes to 
+                fun things to do in Las Vegas, the city’s guaranteed to deliver adrenaline-pumping experiences 
+                aplenty targeted towards anyone who openly identifies as a bonafide thrill-seeker.</p>
+                <label for="check3">Read more</label>
+        </div>
+
+    <div class="sbs">
+           <input type="checkbox" id="check4">
+            <h3>Guide to Chartering a Yacht in the British Virgin Islands</h3>
+            <img src="https://wanderingearl.com/wp-content/uploads/2024/08/Yacht-700x441.jpg" height="330px">
+            <p>  The British Virgin Islands, or BVI, is considered the crown jewel of Caribbean yachting. It has
+                 all of the ingredients for a perfect sailing holiday - breathtaking islands, consistent trade 
+                 winds, a beautiful mixture of day time activities and nightlife and excellent</p>
+            <label for="check4">Read more</label>
+    
+    </div>
+
+        <div class="sbs">
+            <input type="checkbox" id="check5">
+            <h3>Yacht Rentals Greece: Best Routes for Families and Adventure Seekers</h3>
+            <img src="https://wanderingearl.com/wp-content/uploads/2024/06/Yacht-5-700x441.jpg" height="300px">
+            <p>Greece, with its crystal-clear waters and stunning landscapes, is a premier destination for 
+                yachting enthusiasts and those looking for the perfect yacht charter. Whether you're planning 
+                a family vacation or seeking an adventurous escape, Greece offers diverse routes that cater to 
+                all preferences</p>
+                <label for="check5  ">Read more</label>
+        </div>
+
+
+
+        <div class="side">
+            <h2> Topics</h2>
+            <BR><hr>
+                <h4><a href="">Poem</a></h4><hr>
+                <h4><a href="">Quotes</a></h4><hr>
+                <h4><a href="">Motivation</a></h4><hr>
+                <h4><a href="">Sports</a></h4><hr>
+                <h4><a href="">Biography</a></h4><hr>
+                <h4><a href="">Life lessons</a></h4><hr>
+                <h4><a href="">Self development</a></h4><hr>
+                <h4><a href="">Literature</a></h4><hr>
+        </div>
+
+
+ </div>
+    </body>
+</html> 
