@@ -1,0 +1,333 @@
+*{
+    /* border: 1px solid black; */
+    color: white;
+  }
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(89, 9, 165);
+        margin-bottom: 1%;
+    }
+  .navbar{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    
+  }
+  .navbar a{
+       text-decoration: none;
+       color: white;
+       display:block;
+       text-align: center;
+       padding: 4px;
+       border-radius: 10px;
+       background-color:rgb(217, 156, 13);
+       font-size: 30px;
+       font-family: 'Pacifico', cursive;       
+  }
+  .navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    
+    
+  }
+  .navbar li{
+    padding: 5px;
+    float: left;
+  }
+  .logo a{
+    background-color: blueviolet !important;
+    font-size: 60px;
+  }
+  .logo a:hover{
+       background-color: blueviolet !important;
+  }
+  .navbar a:hover{
+    background-color: rgb(57, 23, 88);
+  }
+  #leftf{
+    float: left;
+    padding-top: 12px;
+  }
+ 
+ p{
+  font-size:25px !important;
+  padding:2px;
+  font-family: Garamond, serif;
+
+ }
+ li{
+  font-size:25px;
+  padding: 5px;
+  font-family: Garamond, serif;
+ }
+ h4{
+  font-size: 25px;
+  font-family: 'Pacifico', cursive; 
+
+  
+ }
+ h5{
+  font-size:22px;
+  font-family: 'Pacifico', cursive; 
+ }
+ div h5{
+  text-align: justify !important;
+    display:block;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Pacifico', cursive; 
+ }
+ .toc{
+  display: block;
+  width: 15%;
+  position: fixed;
+  background-color: rgb(80, 2, 153);
+  border-radius: 30px;
+  margin-left: 0.1%;
+ padding-left: 1%;
+  padding-bottom: 20px;
+  
+ 
+ }
+ .toc h4{
+  margin-top: 20    px;
+  padding-top: 0px;
+  font-family: 'Pacifico', cursive; 
+ }
+ .toc a{
+  text-decoration: none;
+  margin-left: 0px;
+  
+ }
+ .toc ul{
+  list-style-type: none;
+  margin-top: 0px;
+  padding: 0%;
+  font-family: 'Pacifico', cursive; 
+ }
+
+ strong{
+      font-size: 22px;
+      font-family: Garamond, serif;
+
+ }
+ .toc a:hover{
+  border-left: 3px solid red;
+  padding-left: 5%;
+  text-decoration:auto;
+ }
+ .toc li{
+    margin-top:10%;
+ }
+.chapter1{
+       
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  /* .chapter1 img{
+     margin-top: 1%;
+     margin-left: 7%;
+  } */
+  .chapter1 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter1 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter1 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+
+.chapter2{
+       
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  /* .chapter1 img{
+     margin-top: 1%;
+     margin-left: 7%;
+  } */
+  .chapter2 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter2 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter2 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+
+.chapter3{
+       
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  /* .chapter1 img{
+     margin-top: 1%;
+     margin-left: 7%;
+  } */
+  .chapter3 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter3 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter3 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+
+.chapter4{
+       
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  /* .chapter1 img{
+     margin-top: 1%;
+     margin-left: 7%;
+  } */
+  .chapter4 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter4 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter4 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+.chapter5{
+       
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  /* .chapter1 img{
+     margin-top: 1%;
+     margin-left: 7%;
+  } */
+  .chapter5 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter5 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter5 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+.chapter6{
+       
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  /* .chapter1 img{
+     margin-top: 1%;
+     margin-left: 7%;
+  } */
+  .chapter6 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter6 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter6 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+
+.chapter7{
+   
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  .chapter7 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter7 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter7 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+
+  .chapter8{
+   
+    text-align: justify !important;
+    display:block;
+    margin-left: 17%;
+    margin-right: 3%;
+    color: white;
+  }
+  .chapter8 p{
+    font-size: 25px;
+    font-family: Garamond, serif;
+  }
+  .chapter8 h1{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; 
+  }
+  .chapter8 h3{
+    font-size:30px;
+    font-weight:bolder;
+    font-family: 'Pacifico', cursive; 
+  }
+  .syllabus img{
+    margin-left: 20%;
+  }
+  #simg{
+    margin-top: 2%;
+    margin-left: 35%;
+  }
+  #grid1{
+         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+  }

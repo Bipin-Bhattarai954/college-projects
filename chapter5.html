@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+      <title>computer class 11</title>
+      <link rel="stylesheet" href="mycss.css">
+    </head>
+</html>
+<body>
+
+<div > 
+       <nav class="navbar">
+<div><h1 class="logo"><a href="#">Computer grade 11</a></h1></div>
+    <div>
+        <ul id="leftf">
+            <li><a href="navbar.html">Home</a></li>
+            <li><a href="chapter1.html">Chapters</a></li>
+            <li><a href="syllabus.html">Syllabus</a></li>
+            <li><a href="grid.html">Grid</a></li>
+            <li><a href="#">Notes</a></li>
+            
+        </ul>
+       </div>
+    </nav>
+    </div>
+
+    <div class="toc">
+      <h4>Contents</h4>
+      <ul>
+        <li><a href="chapter1.html">Chapter 1:Computer System</a></li>
+        <li><a href="chapter2.html">Chapter 2:Number System, Conversion and Boolean Logic</a></li>
+        <li><a href="chapter3.html">Chapter 3:Computer software and Operating System</a></li>
+        <li><a href="chapter4.html">Chapter 4:Application Package</a></li>
+        <li><a href="chapter5.html" id="when_clicked">Chapter 5:Programming Concepts and logics</a></li>
+        <li><a href="chapter6.html">Chapter 6:Web technology - I</a></li>
+        <li><a href="chapter7.html">Chapter 7:Multimedia</a></li>
+        <li><a href="chapter8.html">Chapter 8:Information Security and Cyber Law</a></li>
+      </ul>
+    </div>
+
+
+    <div class="chapter5">
+        <h1>Chapter 5:Programming Concepts and Logics</h1>
+        <strong>Difference between compiler and interpreter:</strong>
+
+<table border="1">
+  <tr>
+    <th>S.N.</th>
+    <th>Compiler</th>
+    <th>Interpreter</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>It translates the whole program into object code at a time.</td>
+    <td>It translates one line or a single statement of a program into object code at a time.</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>It finds out the error after compiling the complete program.</td>
+    <td>It finds out the error after translating a line of the program at a time.</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>The translating process is incredibly faster.</td>
+    <td>The translating process is slower.</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Compiler based program is difficult to code and debug.</td>
+    <td>Interpreter based program is easy to code and debug.</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>It is usually a large program and requires larger memory space.</td>
+    <td>It is usually a smaller program and requires less memory space.</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>New programming languages don’t use compiler.</td>
+    <td>New programming languages use interpreter.</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>For e.g.: C, C++, Java, FORTRAN etc.</td>
+    <td>For e.g.: BASIC, C#, PHP etc.</td>
+  </tr>
+</table>
+
+<strong>Syntax and Semantics:</strong>
+<p>As we know, programming languages help the user communicate with the computer. The user is governed by several sets of codes that instruct the computer to perform specific tasks. This set of codes and its structure is known as syntax. In addition, semantics refers to the meaning attached to individual words or symbols in a programming language. For example:</p>
+<p>In QBasic:</p>
+<pre>Print “This is programming”; P</pre>
+<p>Here, "Print" is semantics, and the entire line is the structure (syntax).</p>
+
+<strong>Error (BUG):</strong>
+<p>There may be several errors inside a program that stop it from being executed. An error in a program is known as a bug. This type of error may arise from not following proper rules given by the programming language, poor problem analysis, or hardware failure. Errors in a program can give ambiguous (not accepted/false) results. The process of removing errors from a computer program is known as debugging. There are three types of errors:</p>
+<ul>
+  <li><strong>Syntax error:</strong> The error arises due to not following the proper rules or format given by the programming language. Each programming language has its own vocabulary, punctuation, and structure. This error can be detected by language processors such as compilers and interpreters. For example, in C, every statement should end with a semicolon; otherwise, a syntax error occurs.</li>
+  <li><strong>Logical error:</strong> This occurs when the problem is poorly understood, hampering the solution. This error is not detected by language processors. For example, in calculating simple interest, if the formula used is I = P * T * R, the logical error will occur.</li>
+  <li><strong>Runtime error:</strong> These errors occur when the program is running. They are not detected by the language processor. Examples include insufficient memory space or a peripheral device not functioning.</li>
+</ul>
+
+<strong>Some common terminology in programming:</strong>
+<p><strong>Data types:</strong> Data types specify the type of data to be used in a program. Common data types are:</p>
+<ul>
+  <li><strong>Numeric:</strong> Positive and negative whole numbers, including zero.</li>
+  <li><strong>Character:</strong> Alphanumeric values including special symbols.</li>
+</ul>
+
+<p><strong>Variable and Constant:</strong></p>
+<ul>
+  <li><strong>Variable:</strong> An entity that holds numeric or alphanumeric values and changes its value during the program execution.</li>
+  <li><strong>Constant:</strong> An entity that holds numeric or alphanumeric values but does not change its value during the program execution.</li>
+</ul>
+
+<p><strong>Operands and Operators and Operations:</strong></p>
+<p>Let us consider: <code>S=A+B</code></p>
+<ul>
+  <li><strong>Operands:</strong> S, A, B</li>
+  <li><strong>Operators:</strong> +, =</li>
+  <li><strong>Operation:</strong> The sum of two operands, A and B, which is an operation.</li>
+</ul>
+
+<strong>Types of operators:</strong>
+<ul>
+  <li><strong>Arithmetic operators:</strong> +, -, /, *</li>
+  <li><strong>Relational operators:</strong> <, >, >=, <=, =</li>
+  <li><strong>Logical operators:</strong> AND, OR, NOT</li>
+</ul>
+
+<strong>Program Design Tool:</strong>
+<p>There are several program design tools available. Some commonly used program design tools are algorithm, flowchart, and pseudocode.</p>
+
+<strong>Algorithm:</strong>
+<p>The step-by-step procedure or sequence of steps for solving a specific problem is known as an algorithm. Algorithms are written in simple English language and are not closely related to any programming language.</p>
+
+<strong>Rules for writing an algorithm:</strong>
+<ul>
+  <li>Algorithm should produce output after a finite number of steps.</li>
+  <li>Algorithm should not depend on any specific programming language.</li>
+  <li>Algorithm should terminate after a finite number of steps.</li>
+</ul>
+
+<strong>Examples:</strong>
+
+<strong>1. Write an algorithm to calculate simple interest:</strong>
+<pre>
+Step 1: Start
+Step 2: Read the value of P, T, R
+Step 3: Calculate simple interest by using I=(P*T*R)/100
+Step 4: Display simple interest (I)
+Step 5: Stop
+</pre>
+
+<strong>2. Write an algorithm to check the greatest number among two numbers:</strong>
+<pre>
+Step 1: Start
+Step 2: Read any two numbers a, b
+Step 3: Check if (a > b)
+    If yes, Display the greatest number is “a” and go to step 4
+    If no, Display the greatest number is “b” and go to step 4
+Step 4: Stop
+</pre>
+```html
+<p><strong>What is C programming language?</strong></p>
+<p>C is a High-Level Programming Language developed by Dennis Ritchie at AT&T's Bell Laboratories in 1970. It is widely used for both system and application programming. Known as a Middle-Level Programming Language, it works with both low-level and high-level language features.</p>
+
+<p><strong>What are the features of C language?</strong></p>
+<ul>
+  <li>Supports both high-level and low-level programming, making it a middle-level language.</li>
+  <li>Primarily used for system programming but also widely used for application programming.</li>
+  <li>Efficient and fast program development.</li>
+  <li>Includes powerful tools and keywords.</li>
+  <li>Has its own text editor and compiler.</li>
+  <li>Supports structured programming.</li>
+  <li>Highly portable.</li>
+  <li>Comes with a vast set of library functions.</li>
+  <li>Flexible for programming.</li>
+</ul>
+
+<p><strong>Advantages and Disadvantages of C language:</strong></p>
+<table>
+  <tr>
+    <th>Advantages</th>
+    <th>Disadvantages</th>
+  </tr>
+  <tr>
+    <td>Suitable for system programming.</td>
+    <td>No runtime checking.</td>
+  </tr>
+  <tr>
+    <td>Easier interaction with hardware.</td>
+    <td>No strict data type checking.</td>
+  </tr>
+  <tr>
+    <td>Easy to learn.</td>
+    <td>Debugging can become complex with large programs.</td>
+  </tr>
+  <tr>
+    <td>Compact and efficient code.</td>
+    <td>Requires semicolons at the end of each statement.</td>
+  </tr>
+</table>
+
+<p><strong>Define the following terms:</strong></p>
+
+<ul>
+  <li><strong>Editor:</strong> The area where the program is typed. C has its own text editor, but other text editors can also be used.</li>
+  <li><strong>Pre-processor:</strong> A collection of instructions, written with a preceding # symbol, to help the machine understand certain keywords (e.g., #include).</li>
+  <li><strong>Compiler:</strong> A software that converts high-level code into machine-readable object code.</li>
+  <li><strong>Linker:</strong> A software that links various library files with object codes to create an executable file (.exe).</li>
+</ul>
+
+<p><strong>Character Set in C Language:</strong></p>
+<ul>
+  <li><strong>Alphabets:</strong> A-Z and a-z.</li>
+  <li><strong>Digits:</strong> 0-9.</li>
+  <li><strong>Special Symbols:</strong> ~ ' ! @ % ^ & * ( ) - _ + = | \ { } [] : ; " ' <> , . ? /</li>
+</ul>
+
+<p><strong>Comments in C:</strong></p>
+<ul>
+  <li><strong>Single-line comment:</strong> Written with the // symbol.</li>
+  <li><strong>Multi-line comment:</strong> Written with /*...*/ symbols.</li>
+</ul>
+
+<p><strong>C Tokens:</strong> A set of identifiers, keywords, constants, variables, and operators that form the smallest unit in C programming. These units are not broken down during compilation.</p>
+
+<p><strong>Data Types in C:</strong></p>
+<ul>
+  <li><strong>int:</strong> Represents integer data. Uses 2 bytes of memory.</li>
+  <li><strong>float:</strong> Represents real numbers with decimal points. Uses 4 bytes of memory.</li>
+  <li><strong>char:</strong> Represents a single character. Uses 1 byte of memory.</li>
+  <li><strong>void:</strong> Represents no value or null value.</li>
+</ul>
+
+<p><strong>Escape Sequences in C:</strong></p>
+<table>
+  <tr>
+    <th>Character</th>
+    <th>Escape</th>
+  </tr>
+  <tr>
+    <td>New Line</td>
+    <td>\n</td>
+  </tr>
+  <tr>
+    <td>Horizontal tab</td>
+    <td>\t</td>
+  </tr>
+  <tr>
+    <td>Null character</td>
+    <td>\0</td>
+  </tr>
+  <tr>
+    <td>Quotation mark</td>
+    <td>\"</td>
+  </tr>
+  <tr>
+    <td>Apostrophe</td>
+    <td>\'</td>
+  </tr>
+  <tr>
+    <td>Backslash</td>
+    <td>\\</td>
+  </tr>
+</table>
+
+<p><strong>Program Example 1:</strong></p>
+<pre><code>
+#include <stdio.h>
+void main() {
+  int a, b, s;
+  printf("Enter First Number: ");
+  scanf("%d", &a);
+  printf("Enter Second Number: ");
+  scanf("%d", &b);
+  s = a + b;
+  printf("The sum is %d", s);
+}
+</code></pre>
+
+<p><strong>Control Structures in C:</strong></p>
+<ul>
+  <li><strong>Sequence:</strong> The normal flow of program execution.</li>
+  <li><strong>Selection:</strong> Allows the program to make decisions (e.g., if, if-else, and switch).</li>
+  <li><strong>Looping:</strong> Repeating a block of statements (e.g., for, while, and do-while loops).</li>
+</ul>
+
+<p><strong>Example of Loop (For loop):</strong></p>
+<pre><code>
+#include <stdio.h>
+int main() {
+  int i;
+  for (i = 1; i <= 10; i++) {
+    printf("%d\n", i);
+  }
+  return 0;
+}
+</code></pre>
+<p><strong>Array</strong></p>
+
+<p>An array is a collection of variables of the same type represented by a common name. It contains homogeneous data (similar data types). If we declare an array as int, it must only contain integer data, and the same applies to floats and char. Each array element is accessed using the array name followed by an index enclosed in square brackets (e.g., a[10]). Hence, it is also called an indexed or subscripted variable.</p>
+
+<p>Example: <code>int age[5];</code></p>
+
+<p>This means the array name is <code>age</code>, capable of storing five different integer values.</p>
+
+<p><strong>Types of Arrays</strong></p>
+
+<ul>
+    <li>1-Dimensional</li>
+    <li>N-Dimensional (Multi-Dimensional)</li>
+</ul>
+
+<p><strong>1-Dimensional Array</strong></p>
+
+<p>This type of array has only one subscript.</p>
+
+<p><strong>Declaration:</strong></p>
+<pre><code>Data_type array_name[size];</code></pre>
+
+<p><strong>Example:</strong></p>
+<pre><code>int salary[100];</code></pre>
+
+<p><strong>Program Examples:</strong></p>
+
+<p><strong>Q1: WAP to input 10 different numbers and print them.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a[10], i;
+    printf("Enter any 10 numbers: ");
+    for(i=0; i<10; i++) {
+        scanf("%d", &a[i]);
+    }
+    for(i=0; i<10; i++) {
+        printf("%d ", a[i]);
+    }
+    return 0;
+}</code></pre>
+
+<p><strong>Q2: WAP to input the salary of 1000 employees and calculate the average salary.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int sal[1000], i, sum=0;
+    float avg;
+    printf("Enter salaries of 1000 employees: ");
+    for(i=0; i<1000; i++) {
+        scanf("%d", &sal[i]);
+        sum += sal[i];
+    }
+    avg = sum / 1000.0;
+    printf("Average salary is: %f", avg);
+    return 0;
+}</code></pre>
+
+<p><strong>Q3: WAP to count employees earning between 30,000 and 50,000.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int sal[1000], i, count = 0;
+    printf("Enter salaries of 1000 employees: ");
+    for(i=0; i<1000; i++) {
+        scanf("%d", &sal[i]);
+        if(sal[i] >= 30000 && sal[i] <= 50000) {
+            count++;
+        }
+    }
+    printf("Total employees earning between 30,000 and 50,000: %d", count);
+    return 0;
+}</code></pre>
+
+<p><strong>Q4: WAP to input 10 numbers and find the greatest among them.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a[10], i, max;
+    printf("Enter 10 numbers: ");
+    for(i=0; i<10; i++) {
+        scanf("%d", &a[i]);
+    }
+    max = a[0];
+    for(i=1; i<10; i++) {
+        if(a[i] > max) {
+            max = a[i];
+        }
+    }
+    printf("Greatest number is %d\n", max);
+    return 0;
+}</code></pre>
+
+<p><strong>Q5: WAP to sort 10 numbers in ascending order.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a[10], i, j, temp;
+    printf("Enter 10 numbers: ");
+    for(i=0; i<10; i++) {
+        scanf("%d", &a[i]);
+    }
+    for(i=0; i<9; i++) {
+        for(j=0; j<9-i; j++) {
+            if(a[j] > a[j+1]) {
+                temp = a[j];
+                a[j] = a[j+1];
+                a[j+1] = temp;
+            }
+        }
+    }
+    printf("Sorted numbers: ");
+    for(i=0; i<10; i++) {
+        printf("%d ", a[i]);
+    }
+    return 0;
+}</code></pre>
+
+<p><strong>N-Dimensional (Multi-Dimensional) Arrays</strong></p>
+
+<p>These arrays have more than one subscript.</p>
+
+<p><strong>Declaration:</strong></p>
+<pre><code>Data_type array_name[size][size];</code></pre>
+
+<p><strong>Example:</strong></p>
+<pre><code>int matrix[3][3];</code></pre>
+
+<p><strong>Q1: WAP to input and display a 3x3 matrix.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a[3][3], i, j;
+    printf("Enter 9 numbers: ");
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            scanf("%d", &a[i][j]);
+        }
+    }
+    printf("Matrix:\n");
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            printf("%d\t", a[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}</code></pre>
+
+<p><strong>Q2: WAP to perform matrix addition.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a[3][3], b[3][3], c[3][3], i, j;
+    printf("Enter values for two 3x3 matrices:\n");
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            scanf("%d", &a[i][j]);
+            scanf("%d", &b[i][j]);
+            c[i][j] = a[i][j] + b[i][j];
+        }
+    }
+    printf("Added Matrix:\n");
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            printf("%d\t", c[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}</code></pre>
+
+<p><strong>Q3: WAP to perform matrix multiplication.</strong></p>
+<pre><code>#include &lt;stdio.h&gt;
+int main() {
+    int a[3][3], b[3][3], p[3][3], i, j, k;
+    printf("Enter values for two 3x3 matrices:\n");
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            scanf("%d", &a[i][j]);
+            scanf("%d", &b[i][j]);
+        }
+    }
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            p[i][j] = 0;
+            for(k=0; k<3; k++) {
+                p[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+    printf("Multiplied Matrix:\n");
+    for(i=0; i<3; i++) {
+        for(j=0; j<3; j++) {
+            printf("%d\t", p[i][j]);
+        }
+        printf("\n");
+    }
+    return 0;
+}</code></pre>
+    </div>
+</body>
+ </html>
